@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт  вакансиями</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .shapka {
+            background-color: white;
+            max-width: 1000px;
+            margin: 0 auto 30px auto;
+            padding: 40px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .shapka h2 {
+            font-size: 32px;
+            margin:  20px ;
+            color: black;
+        }
+
+        .knopka-tg {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .wraper {
+            max-width: 1040px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .blok {
+            background-color: white;
+            border-radius: 12px;
+            width: 320px;
+            padding: 25px;
+            height: 200px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .siny-znachok {
+            position: absolute;
+            top: -12px;
+            left: 240px; 
+            background-color: dodgerblue;
+            color: white;
+            padding: 4px 12px;
+            font-size: 11px;
+            border-radius: 20px;
+            transform: rotate(-10deg);
+        }
+
+        .firma {
+            font-size: 14px;
+            color: gray;
+            margin-bottom: 15px;
+        }
+
+        .zagolovok {
+            font-size: 20px;
+            margin:  10px ;
+            color: black;
+        }
+
+        .gorod {
+            font-size: 14px;
+            color: darkgray;
+            margin-bottom: 25px;
+        }
+
+        .kategorii {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .krutoy-tag {
+            background-color: gainsboro;
+            color: gray;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+        }
+
+        .zeleny-tag {
+            background-color: gainsboro;
+            color: black;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+        }
+        .shapka-mattee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1040px;
+    margin: 0 auto 20px auto;
+}
+
+.shapka-mattee h2 {
+    margin: 0;
+}
+
+.tekst-menu {
+    font-size: 16px;
+    color: black;
+}
+
+.knopka-sinyaya {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="shapka-mattee">
+    <h2>mattee</h2>
+    <div class="tekst-menu">Вакансии Работодателям</div>
+    <button class="knopka-sinyaya">Опубликовать</button>
+</div>
+
+    <div class="shapka">
+        <h2>Больше вакансий в telegram-канале</h2>
+        <p class="knopka-tg">Перейти в ТГ канал</p>
+    </div>
+
+    <main class="wraper">
+        
+        <div class="blok">
+            <div class="siny-znachok">НОВАЯ</div>
+            <div class="firma">Т-Банк</div>
+            <h3 class="zagolovok">Художник концепт-арта</h3>
+            <div class="gorod">Москва, формат работы</div>
+            <div class="kategorii">
+                <span class="zeleny-tag">280 000 ₽</span>
+                <span class="krutoy-tag">Фулл-тайм</span>
+                <span class="krutoy-tag">Junior</span>
+            </div>
+        </div>
+
+        <div class="blok">
+            <div class="siny-znachok">НОВАЯ</div>
+            <div class="firma">Apple</div>
+            <h3 class="zagolovok">UI/UX Дизайнер</h3>
+            <div class="gorod">Москва, формат работы</div>
+            <div class="kategorii">
+                <span class="zeleny-tag">280 000 ₽</span>
+                <span class="krutoy-tag">Фулл-тайм</span>
+                <span class="krutoy-tag">Junior</span>
+            </div>
+        </div>
+
+        <div class="blok">
+            <div class="firma">ВТБ</div>
+            <h3 class="zagolovok">Графический дизайнер</h3>
+            <div class="gorod">Москва, формат работы</div>
+            <div class="kategorii">
+                <span class="zeleny-tag">280 000 ₽</span>
+                <span class="krutoy-tag">Фулл-тайм</span>
+                <span class="krutoy-tag">Junior</span>
+            </div>
+        </div>
+
+        <div class="blok">
+            <div class="firma">Т-Банк</div>
+            <h3 class="zagolovok">Промышленный дизайнер</h3>
+            <div class="gorod">Москва, формат работы</div>
+            <div class="kategorii">
+                <span class="zeleny-tag">280 000 ₽</span>
+                <span class="krutoy-tag">Фулл-тайм</span>
+                <span class="krutoy-tag">Junior</span>
+            </div>
+        </div>
+
+        <div class="blok">
+            <div class="firma">Apple</div>
+            <h3 class="zagolovok">Диджитал дизайнер</h3>
+            <div class="gorod">Москва, формат работы</div>
+            <div class="kategorii">
+                <span class="zeleny-tag">280 000 ₽</span>
+                <span class="krutoy-tag">Фулл-тайм</span>
+                <span class="krutoy-tag">Junior</span>
+            </div>
+        </div>
+
+        <div class="blok">
+            <div class="firma">ВТБ</div>
+            <h3 class="zagolovok">Художник концепт-арта</h3>
+            <div class="gorod">Москва, формат работы</div>
+            <div class="kategorii">
+                <span class="zeleny-tag">280 000 ₽</span>
+                <span class="krutoy-tag">Фулл-тайм</span>
+                <span class="krutoy-tag">Junior</span>
+            </div>
+        </div>
+
+        <div class="blok">
+            <div class="firma">Т-Банк</div>
+            <h3 class="zagolovok">Промышленный дизайнер</h3>
+            <div class="gorod">Москва, формат работы</div>
+            <div class="kategorii">
+                <span class="zeleny-tag">280 000 ₽</span>
+                <span class="krutoy-tag">Фулл-тайм</span>
+                <span class="krutoy-tag">Junior</span>
+            </div>
+        </div>
+
+        <div class="blok">
+            <div class="firma">Т-Банк</div>
+            <h3 class="zagolovok">Промышленный дизайнер</h3>
+            <div class="gorod">Москва, формат работы</div>
+            <div class="kategorii">
+                <span class="zeleny-tag">280 000 ₽</span>
+                <span class="krutoy-tag">Фулл-тайм</span>
+                <span class="krutoy-tag">Junior</span>
+            </div>
+        </div>
+
+        <div class="blok">
+            <div class="firma">Т-Банк</div>
+            <h3 class="zagolovok">Промышленный дизайнер</h3>
+            <div class="gorod">Москва, формат работы</div>
+            <div class="kategorii">
+                <span class="zeleny-tag">280 000 ₽</span>
+                <span class="krutoy-tag">Фулл-тайм</span>
+                <span class="krutoy-tag">Junior</span>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
